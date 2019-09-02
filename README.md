@@ -1,7 +1,7 @@
 # findexec
 
 
-[![travisci][travisci-image]][travisci-url] [![codecov][codecov-image]][codecov-url] [![Go Report Card][go-report-card-image]][go-report-card-url] 
+[![travisci][travisci-image]][travisci-url] [![codecov][codecov-image]][codecov-url] [![Go Report Card][go-report-card-image]][go-report-card-url]  [![GoDoc][godoc-image]][godoc-url]
 
 A go library to find paths of executables
 
@@ -12,7 +12,6 @@ A go library to find paths of executables
 ## Usage
 
 ```go
-
 package main
 
 import "github.com/jonhadfield/findexec"
@@ -29,7 +28,7 @@ func main() {
 
 ## License
 
-The source code is made available under the terms of the Unlicense License, as stated in the file `LICENSE`.
+The source code is made available under the terms of the Unlicense License, as stated in the file [LICENSE](LICENSE).
 
 ## Credits
 
@@ -42,3 +41,5 @@ This is rewrite of the [find_executable()](https://docs.python.org/2/distutils/a
 [go-report-card-image]: https://goreportcard.com/badge/github.com/jonhadfield/findexec
 [codecov-image]: https://codecov.io/gh/jonhadfield/findexec/branch/master/graph/badge.svg
 [codecov-url]: https://codecov.io/gh/jonhadfield/findexec
+[godoc-image]: https://godoc.org/github.com/jonhadfield/findexec?status.svg
+[godoc-url]: http://godoc.org/github.com/jonhadfield/findexec
